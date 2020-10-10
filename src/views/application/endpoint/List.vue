@@ -1,5 +1,5 @@
 <template>
   <div>
-    <router-view/>
+    Open an endpoint to test your API
   </div>
 </template>

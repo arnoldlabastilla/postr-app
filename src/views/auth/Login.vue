@@ -39,6 +39,8 @@ export default {
           this.$store.commit('user/setEmail', data.user.email)
 
           this.clearForm()
+
+          this.$router.replace({ name: 'app.endpoints' })
         })
         .catch((error) => {
           console.error(error.response)

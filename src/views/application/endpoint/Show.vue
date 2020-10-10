@@ -1,5 +1,5 @@
 <template>
   <div>
-    <router-view/>
+    Endpoint ID: {{ $route.params.id }}
   </div>
 </template>
